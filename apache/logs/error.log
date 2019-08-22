@@ -1,4 +1,0 @@
-[Thu Aug 22 16:32:08.822576 2019] [so:warn] [pid 537] AH01574: module rewrite_module is already loaded, skipping
-[Thu Aug 22 16:32:08.867294 2019] [mpm_prefork:notice] [pid 538] AH00163: Apache/2.4.38 (Ubuntu) configured -- resuming normal operations
-[Thu Aug 22 16:32:08.867352 2019] [core:notice] [pid 538] AH00094: Command line: '/usr/sbin/apache2'
-[Thu Aug 22 16:32:28.163435 2019] [php7:error] [pid 556] [client 127.0.0.1:40286] script '/workspace/wordpress/index.php' not found or unable to stat, referer: https://8080-accf71ce-93e8-408e-a502-9b260a897bec.ws-us0.gitpod.io/
