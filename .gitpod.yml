@@ -1,0 +1,20 @@
+image:
+  file: Dockerfile
+ports:
+  - port: 8080
+  - port: 3306
+    onOpen: ignore
+checkoutLocation: "wordpress"
+workspaceLocation: "."
+tasks:
+  - name: MySQL
+    command: >
+        mysqld --initialize-insecure;
+        mysqld &
+  - name: Apache
+    command: >
+        apachectl start;
+  - name: WordPress
+    command: >
+        chmod 660 $GITPOD_REPO_ROOT/.htaccess;
+        cd $GITPOD_REPO_ROOT;
