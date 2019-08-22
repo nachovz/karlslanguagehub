@@ -34,9 +34,6 @@ log_error               = /workspace/wordpress/mysql/logs/error.log
 expire_logs_days	= 10
 max_binlog_size     = 100M
 
-no_zero_in_date = false
-no_zero_date = false
-
 [client]
 user=gitpod
 password=gitpod
